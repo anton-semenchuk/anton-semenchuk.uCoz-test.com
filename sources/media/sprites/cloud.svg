@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/cloud</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Test" transform="translate(-170.000000, -1064.000000)" fill="#293E51">
+            <g id="table" transform="translate(140.000000, 862.000000)">
+                <path d="M49.35,208.04 C48.67,204.59 45.64,202 42,202 C39.11,202 36.6,203.64 35.35,206.04 C32.34,206.36 30,208.91 30,212 C30,215.31 32.69,218 36,218 L49,218 C51.76,218 54,215.76 54,213 C54,210.36 51.95,208.22 49.35,208.04 Z" id="icons/cloud"></path>
+            </g>
+        </g>
+    </g>
+</svg>

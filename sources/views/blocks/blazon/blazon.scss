@@ -1,0 +1,33 @@
+.l-blazon {
+	display: flex;
+}
+
+.blazon {
+	margin-right: 40px;
+
+	&__bg {
+		fill: #a145ba;
+
+		&-top {
+			fill: #F3CA00;
+		}
+	}
+}
+
+.blazon-text {
+	max-width:400px;
+	width:100%;
+}
+
+@media screen and (max-width:920px) {
+	.l-blazon {
+		justify-content: center;
+		flex-wrap:wrap;
+	}
+}
+
+@media screen and (max-width:620px) {
+	.blazon {
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,46 @@
+* {
+	margin:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family: "BloggerSans", sans-serif;
+	background-color: #ECF0F1;
+}
+
+li {
+	list-style:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	@include font("BloggerSans", normal, 15px, #293E51, 20px);
+}
+
+.l-wrap {
+	padding-top:60px;
+	margin: 0 auto 800px;
+	max-width:920px;
+}
+
+.header, .footer, .section {
+	margin-bottom:100px;
+}
+
+.margin-top_20 {
+	margin-top: 20px;
+}
+
+@media screen and (max-width:920px) {
+	.l-wrap {
+		padding-right:20px;
+		padding-left:20px;
+	}
+
+	.header, .footer, .section {
+		margin-bottom:70px;
+	}
+}

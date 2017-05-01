@@ -1,0 +1,92 @@
+.hosting-top {
+	margin-bottom: 10px;
+	height: 40px;
+
+	&__row {
+		display: flex;
+		align-items: center;
+		background-color: #fff;
+		height:100%;
+		padding: 0 30px;
+		max-width:100%;
+	}
+
+	&__section-name {
+		@include font('BloggerSans', normal, 14px, rgba(41,61,81,.6), 20px);
+	}
+}
+
+.hosting__row {
+	@extend .hosting-top__row;
+	
+	height:64px;
+	margin-bottom: 2px;
+}
+
+.hosting__col {
+	position: relative;
+  flex-shrink: 0;
+	display: flex;
+  width:80px;
+
+  &_width-164 {
+  	width: 164px;
+  }
+
+  &_width-150 {
+  	width: 150px;
+  }
+}
+
+.hosting__col-grow {
+  flex-grow: 1;
+}
+
+.hosting-content {
+
+	&__name {
+		@include font("BloggerSansMedium", normal, 15px, #283D51, 20px);
+		margin-left: 40px;
+	}
+
+	&__type, &__price {
+		@extend p;
+		font-size: 14px;
+	}
+
+	&__icon {
+		position: absolute;
+	}
+}
+
+.hosting-defence {
+	display: flex;
+	&__field {
+		border-radius: 1px;
+		background-color: #E9EBED;
+		width:21px;
+		height:6px;
+		margin-right:1px;
+
+		&_yellow {
+			background-color: #F3CA00;
+		}
+	}
+}
+
+@media screen and (max-width:700px) {
+	.hosting-top__row, .hosting__row {
+		justify-content: space-between;
+		padding:0 10px;
+	}
+
+	.hosting__col.hosting__col-grow {
+		display: none;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.hosting__col_width-150 {
+		display: none;
+	}
+}
